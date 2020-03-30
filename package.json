@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/fengzaifen/test/issues"
   },
-  "homepage": "https://github.com/fengzaifen/test#readme"
+  "homepage": "https://github.com/fengzaifen/test#readme",
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
 }
