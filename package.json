@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "测试版本1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fengzaifen/test.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "fengzaifen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fengzaifen/test/issues"
+  },
+  "homepage": "https://github.com/fengzaifen/test#readme"
+}
