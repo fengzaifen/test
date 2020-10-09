@@ -23,7 +23,7 @@ export default new Vue({
   render: h => h(App),
   router,
   store
-}).$mount('#app')
+}).$mount(document.getElementById('app'))
 ```
 
 ## 4、创建build目录，创建webpack.config.base.js
