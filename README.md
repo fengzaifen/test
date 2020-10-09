@@ -16,7 +16,7 @@ import App from './app.vue'
 import router from './router'
 import store from './store'
 
-import './assets/css/global.styl'
+import './assets/css/global.scss'
 import './assets/css/style.css'
 
 export default new Vue({
@@ -39,7 +39,7 @@ export default new Vue({
 
 ## 5、配置module.rules
   ### 5.1 安装需要的loader
-    npm install vue-loader css-loader style-loader url-loader file-loader stylus stylus-loader --save-dev
+    npm install vue-loader css-loader style-loader url-loader file-loader node-sass sass-loader --save-dev
   ### 5.2 根据不同的文件配置不同的loader，每个loader的使用方法可以查询npm
     .vue文件 vue-loader
     .css文件 css-loader style-loader
